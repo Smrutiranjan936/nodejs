@@ -67,11 +67,6 @@ app.listen(port, () => {
 
 
 
-
-
-
-
-
 // app.get('/', (req, res) => {
 //     return res.send('Working with Mongodb');
 // })
