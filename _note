@@ -1,0 +1,15 @@
+Q)  How to run Nodejs first time in vs code ?
+
+first Install (nodejs install)
+setup by typing (npm init -y)
+now package.json  is setup.
+then put the code in js file and for run the program write in terminal (npm start) 
+now our program can run
+
+
+Q)  What is express and how to run in vscode ?
+
+Express is a nodejs laibrari 
+step:-
+install express in the program by the help of(npm install express)
+to see the out put of the program we need (Thunder Client) in vs code .
