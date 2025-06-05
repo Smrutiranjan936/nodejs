@@ -1,7 +1,4 @@
 ### **How to Install and Run Node.js in VS Code**  
-
-Here’s a step-by-step guide to setting up **Node.js** in **VS Code** and running your first script.
-
 ---
 
 ## **Step 1: Install Node.js**
@@ -19,13 +16,8 @@ Here’s a step-by-step guide to setting up **Node.js** in **VS Code** and runni
 
 ---
 
-## **Step 2: Install VS Code**
-1. **Download VS Code** (if not installed):  
-   🔗 [https://code.visualstudio.com](https://code.visualstudio.com)  
-
-2. **Install VS Code** and open it.  
-
-3. **Install Useful Extensions** (Optional but Recommended):  
+## **Step 2: Install Extensions Code** 
+1. **Install Useful Extensions** (Optional but Recommended):  
    - **JavaScript (ES6) code snippets**  
    - **Node.js Extension Pack**  
    - **ESLint** (for code linting)  
@@ -71,14 +63,4 @@ Here’s a step-by-step guide to setting up **Node.js** in **VS Code** and runni
 2. Press `F5` or click **"Run and Debug"**.  
 3. Use the debugger controls (step over, inspect variables, etc.).  
 
----
 
-## **Summary**
-✅ **Installed Node.js & VS Code**  
-✅ **Created & Ran a Node.js Script**  
-✅ **Learned 3 Ways to Run Node in VS Code**  
-✅ **Debugged Node.js in VS Code**  
-
-Now you can build **backend APIs, scripts, and more** with Node.js in VS Code! 🚀  
-
-Would you like help with a **specific Node.js project**? 😊
