@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "package.json": "^2.0.1"
+  },
+  "name": "jsonfolder",
+  "version": "1.0.0",
+  "description": "my pratice set",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Smruti",
+  "license": "ISC"
+}
