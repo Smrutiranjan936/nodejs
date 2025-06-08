@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+/*const fs = require('fs');*/    /* this line is used to connect with mongoes*/
 const mongoose = require('mongoose');
 const port = 8000;
 mongoose.connect('mongodb://localhost:27017/seeree_mern_internship').then(() => { console.log('mongoDb Connected Succssfully') }).catch(err => { console.log(err) })
