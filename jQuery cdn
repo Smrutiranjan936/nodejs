@@ -1,0 +1,244 @@
+                <!-- Alert function -->
+
+                
+<!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        alert("hello Smruti");
+    })
+</script> -->
+
+
+
+
+                <!-- Hide of show function -->
+
+
+<!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $("#h").click(function(){
+            $(".h").hide("slow");
+        });
+        $("#s").click(function(){                   
+            $(".h").show(2000);
+        });
+    })
+</script>
+<button id="h">Hide</button>
+<button id="s">show</button>
+<p class="h">Hello Smruti</p> -->
+
+
+
+                        <!-- hide is show  -->
+
+
+<!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $("#hs").click(function(){
+            $(".h").toggle(1000);
+        })
+    })
+</script>
+<button id="hs">hide/show</button>
+<img src="https://www.thehistoryhub.com/wp-content/uploads/2016/12/India-Gate.jpg" height="200" width="200" class="h">
+<img src="https://th.bing.com/th/id/OIP.rRvv1Ym7RhiB2f08Aco_IAHaEU?rs=1&pid=ImgDetMain" height="200" width="200" class="h" style="display:none;" >
+<img src="https://www.tripsavvy.com/thmb/NlJ2X6dYa_omJz78QwyKmf77tlc=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/_DSC0713_Snapseed_Fotor-56a3c23a3df78cf7727f07e8.jpg" height="200" width="200" class="h"> -->
+
+
+                <!-- Feadding the Image -->
+
+
+<!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $("#fi").click(function(){
+            $(".h").fadeIn(1000);
+        })
+        $("#fo").click(function(){
+            $(".h").fadeOut(1000);
+        })
+    })
+</script>
+<button id="fi">fadein</button>
+<button id="fo">fadeout</button>
+<img src="https://www.thehistoryhub.com/wp-content/uploads/2016/12/India-Gate.jpg" height="200" width="250" class="h"> -->
+
+
+                <!-- slideUp and slaideDown -->
+
+
+<!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $("#fi").click(function(){
+            $(".h").slideUp(1000);
+        })
+        $("#fo").click(function(){
+            $(".h").slideDown(1000);
+        })
+    })
+</script>
+<button id="fi">slideup</button>
+<button id="fo">slidedown</button>
+<img src="https://www.thehistoryhub.com/wp-content/uploads/2016/12/India-Gate.jpg" height="200" width="250" class="h"> -->
+
+
+                    <!-- mixup Everything -->
+
+
+<!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $("#m").click(function(){
+            $(".h").hide(1000).show(1000).fadeIn(1000).fadeOut(1000).slideUp(1000).slideDown(1000);
+        })
+    })
+</script>
+<button id="m">Mix</button>
+<img src="https://www.thehistoryhub.com/wp-content/uploads/2016/12/India-Gate.jpg" height="200" width="250" class="h"> -->
+
+
+                    <!-- Text method -->
+
+
+<!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<p id="h">Hello Nikhil</p>
+<button id="btn">click</button>
+<script>
+    $(document).ready(function(){
+        $("#btn").click(function(){
+            $("#h").text("Hii Smruti How are you..?");
+        })
+    })
+</script> -->
+
+
+                    <!-- append and prepend -->
+
+
+<!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<ul id="list">
+    <li>One line</li>
+</ul>
+<button id="a">append</button>
+<button id="p">prepend</button>
+<script>
+    $(document).ready(function(){
+        $("#a").click(function(){
+            $("#list").append("<li>New data append</li>");        /*  print data in under the one line for */
+        });
+        $("#p").click(function(){
+            $("#list").prepend("<li>New data prepend</li>");        /*  print data up side the one line for */
+        });
+    })
+</script> -->
+
+
+                        <!-- css transformation -->
+
+
+<!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<p id="s">seeree</p>
+<button id="c">click</button>
+
+<script>
+    $(document).ready(function(){
+        $("#c").click(function(){
+            $("#s").css({
+                "color":"greeen",
+                "font-size":"30px",
+                "background-color":"aqua",
+                "border":"2px solid black",
+            });       
+        });
+    })
+</script> -->
+
+
+
+                <!-- add and remove -->
+
+
+<!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<style>
+    .i{
+        background-color: blue;
+        height:200px;
+        width: 200px;
+    }
+    .h{
+        background-color: green;
+        height: 200px;
+        width:200px;
+    }
+</style>
+<div id="k" class="i"></div>
+<script>
+    $(document).ready(function(){
+        $("#k").click(function(){
+            $(this).removeClass("i").addClass("h");       
+        });
+    })
+</script>-->
+
+
+                <!-- Hover -->
+
+
+<!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<p id="h">Nikhil</p>
+<script>
+    $(document).ready(function(){
+        $("#h").hover(function(){
+            $(this).text("Hellow Smruti");       
+        });
+    })
+</script> -->
+
+                        <!-- Enter the value in task bar and this is writen under the line -->
+
+
+<!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<input type="text" id="name" placeholder="Enter your name ">
+<button id="b">Submit</button>
+<p id="o"></p>
+<script>
+    $(document).ready(function(){
+        $("#b").click(function(){
+            name =$("#name").val();
+            $("#o").text("Hello, "+" "+name);       
+        });
+    })
+</script> -->
+
+
+            <!-- prop method -->
+
+
+<!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<button id="b">click</button>
+<script>
+    $(document).ready(function(){
+        $("#b").click(function(){
+            $(this).prop("disabled",true).text("clicked");       
+        });
+    })
+</script> -->
+
+
+            <!-- pid method -->
+
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $(".btn").click(function(){
+            pid= $(this).attr("pid");
+            alert("product ID:"+pid);
+        });
+    })
+</script>
+<input type="button" class="btn" value="buy now" pid="p111">P1
+<input type="button" class="btn" value="buy now" pid="p222">P2
