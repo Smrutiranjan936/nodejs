@@ -1,0 +1,15 @@
+<h1>Admin Page</h1>
+<table border="1px solid black" width="100%">
+    <tr>
+        <th>Sl No</th>
+        <th>User Name</th>
+        <th>Role Name</th>
+    </tr>
+    <% users.forEach((element,index)=>{%>
+    <tr>
+        <td><%=index+1 %></td>
+        <td><%=element.user_name %></td>
+        <td><%=element.role_name %></td>
+    </tr>
+    <% }) %>
+</table>
