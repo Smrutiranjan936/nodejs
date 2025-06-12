@@ -1,0 +1,15 @@
+<% if (typeof message !== 'undefined' && message){%>
+<p><% message %></p>
+<%}%>
+<form action="/signup" method="post">
+    <input type="text" name="user_name" id="user_name" placeholder="Enter User Name">
+    <br>
+    <input type="password" name="password" id="password" placeholder="Enter Your Password">
+    <br>
+    Role:
+    <input type="radio" name="role_name" id="role_name" value="admin">Admin 
+    <input type="radio" name="role_name" id="role_name" value="user">User 
+    <br>
+    <input type="submit" name="btn" id="btn" value="Register">
+</form>
+<a href="/">Already Registered Signin</a>
