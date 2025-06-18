@@ -1,0 +1,5 @@
+for this project we can install (bcryptjs, ejs, express, express-session, mongoose, nodemon)
+
+
+In this project admin can view all the information of user but the password cant be seen.
+in this we can delete the data and edit the data.
