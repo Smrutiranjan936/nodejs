@@ -1,0 +1,13 @@
+const UserController=require('../Controllers/UserController');
+const express=require('express');
+const router=express.Router();
+router.get('/',UserController.login);
+router.get('/register',UserController.register);
+router.post('/signup',UserController.signup);
+router.post('/login',UserController.signin);
+router.get('/admin',UserController.admin);
+router.get('/user',UserController.user);
+router.get('/deleteUser/:id',UserController.deleteUser);
+router.get('/editUser/:id',UserController.editUser);
+router.post('/updateUser/:id',UserController.updateUser);
+module.exports=router;
