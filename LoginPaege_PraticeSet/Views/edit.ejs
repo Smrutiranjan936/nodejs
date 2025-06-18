@@ -1,0 +1,14 @@
+<form action="/updateUser/ <%=user._id %>" method="post">
+    <input type="text" name="user_name" id="user_name"
+    placeholder="Enter User Name" value="<%=user.user_name %>">
+    <br>
+    Role:
+    <input type="radio" name="role_name" id="role_name" value="admin" <% if (user.role_name=='admin') { %>
+        checked  
+        <% } %>>Admin 
+        <input type="radio" name="role_name" id="role_name" value="user" <% if(user.role_name=='user') { %>
+        checked 
+    <% } %>> User 
+    <br>
+    <input type="submit" name="btn" value="Update">
+</form>
